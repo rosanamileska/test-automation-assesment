@@ -108,11 +108,3 @@ test('Verify that the items are sorted by name Z-A ', async ({ page }) => {
     await expect (page.locator('[data-test="add-to-cart-test.allthethings()-t-shirt-(red)"]')).toBeInViewport();
 
   });
-
-
-  
-
-  
-  
-
-  

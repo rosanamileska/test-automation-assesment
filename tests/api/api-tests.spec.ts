@@ -5,7 +5,7 @@ import {
     GetResponse, PostResponse, PutResponse, 
     PatchResponse, DeleteResponse} from "../../utils/utils";
 
-//Get request that returns list of users
+// Get request that returns list of users
 test('Get a list of users!', async() => {
     // Setting up the query params
     const params = new URLSearchParams();

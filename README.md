@@ -15,7 +15,7 @@
 
 ## Installing dependencies and Playwright
 * Install Playwright from a command pallete and add Chromium, Firefox, WebKit browsers and Git Actions.
-* In order to read the .env file in the tests, run this command:
+* In order to read the .env file in the tests, run this command if it's not installed from before:
     * `npm install dotenv --save`
  
 
