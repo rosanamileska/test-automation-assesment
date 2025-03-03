@@ -1,0 +1,16 @@
+{
+    "successful_login": {
+        "email": "eve.holt@reqres.in",
+        "password": "cityslicka"
+    },
+    "update_existing_user": {
+        "name": "morpheus",
+        "job": "zion resident"
+    },
+    "patch_existing_user": {
+        "job": "zion resident"
+    },
+    "unsuccessful_login": {
+        "email": "peter@klaven"
+    }
+}
