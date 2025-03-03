@@ -5,7 +5,7 @@ import {
     GetResponse, PostResponse, PutResponse, 
     PatchResponse, DeleteResponse} from "../../utils/utils";
 
-
+//Get request that returns list of users
 test('Get a list of users!', async() => {
     // Setting up the query params
     const params = new URLSearchParams();
@@ -108,12 +108,12 @@ test('Delayed response!', async() => {
     const params = new URLSearchParams();
     params.set('delay', '3');
    
-    // Keeping the request time in a const
+    // Keeping the current time in a const before the request start
     const requestDate = new Date().getTime();
     // Keeping the response in a const
     const response = await GetResponse('api/users', params);
 
-    // Keeping the response time in a const
+    // Keeping the current time in a const after the request end
     const responseDate = new Date().getTime();
     
     // Validating the response status code
